@@ -1,0 +1,81 @@
+.md-checkbox label > .check {
+    top: -4px;
+    left: 6px;
+    width: 10px;
+    height: 20px;
+    border: 2px solid #327ad5;
+    border-top: none;
+    border-left: none;
+    opacity: 0;
+    z-index: 5;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transition-delay: 0.3s;
+    -moz-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+}
+
+
+.md-radio label > .check {
+    top: 5px;
+    left: 5px;
+    width: 10px;
+    height: 10px;
+    background: #327ad5;
+    opacity: 0;
+    z-index: 6;
+    border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    transform: scale(0);
+}
+
+.icon-state-success {
+    color: #327ad5;
+}
+
+.badge-success {
+    background-color: #327ad5;
+    background-image: none;
+}
+
+.label-success {
+    background-color: #659be0;
+}
+
+    .label-success[href]:hover, .label-success[href]:focus {
+        background-color: #3a80d7;
+    }
+
+
+.text-success {
+    color: #327ad5;
+}
+
+.form-group.form-md-line-input .form-control:focus:not([readonly]) ~ .form-control-focus {
+    color: #888888;
+}
+
+    .form-group.form-md-line-input .form-control.edited:not([readonly]) ~ label:after,
+    .form-group.form-md-line-input .form-control.edited:not([readonly]) ~ .form-control-focus:after, .form-group.form-md-line-input .form-control:focus:not([readonly]) ~ label:after,
+    .form-group.form-md-line-input .form-control:focus:not([readonly]) ~ .form-control-focus:after {
+        visibility: visible;
+        left: 0;
+        width: 100%;
+        background: #327ad5;
+    }
+
+.form-group.form-md-line-input .form-control.edited:not([readonly]) ~ .help-block, .form-group.form-md-line-input .form-control:focus:not([readonly]) ~ .help-block {
+    color: #327ad5;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.table-advance td.highlight div.success {
+    border-left: 2px solid #327ad5;
+}
+
+
